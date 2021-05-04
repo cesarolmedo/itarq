@@ -1,0 +1,43 @@
+/*Globales*/
+html{
+    max-width: 1920px;
+    background-color: white; 
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body{
+    
+    font-size: 16px; /* 1rem =10Px */ 
+    
+}
+
+h1{
+    font-size: 3.8rem;
+}
+nav{
+   margin-bottom: 1rem;
+
+   background-color: slategrey;
+   font-family: 'Noto Sans JP', sans-serif;
+   
+   
+}
+footer{
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+.parallax-container{
+    background-size: cover;
+}
+.principal{
+    font-family: 'Ubuntu', sans-serif;
+}
+.servicios{
+    margin-bottom: 100px;
+}
